@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v4.4.3
       with:
        name: Test logs
-       path: logs/
+       path: logs/automation.log
 
     
     - name: Upload HTML Report as Artifact
@@ -51,7 +51,9 @@ jobs:
 
       run: |
         mkdir -p public/extent-reports
+        mkdir -p public/logs
         cp -R report.html  public/extent-reports/
+        cp -R automation.log public/logs/
         
         ls -l
 
@@ -60,6 +62,13 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: public/extent-reports/
+        token: ${{ secrets.PAT1234 }}
+        clean: true
+    - name: Deploy 🚀
+      if: always()
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: public/logs/
         token: ${{ secrets.PAT1234 }}
         clean: true
        
