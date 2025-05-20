@@ -21,18 +21,20 @@ jobs:
           cache: maven
       - name: Run with Maven
         run: mvn test -DbrowserName=chrome -DisHeadless=false -DisLambda=true
+      
       - name: upload test logs
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
           name: Test logs
           path: logs/
+      
       - name: upload Test reportss
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: html-report
-          path: report.html
+          name: extent-reports
+          path: reports/
       - name: Test Execution Status
         if: always()
         run: echo "Test Execution Completed"
