@@ -26,14 +26,14 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: Test logs
+          name: logs
           path: /logs/automation.log
       
       - name: upload Test reportss
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: extent-reports
+          name: reports
           path: /reports/index.html
       - name: Test Execution Status
         if: always()
@@ -43,8 +43,8 @@ jobs:
         if: always()
 
         run: |
-          mkdir -p public/extent-reports
-          cp -R report.html  public/extent-reports/
+          mkdir -p public/reports
+          cp -R report.html  public/reports/
            
           ls -l
 
@@ -52,6 +52,6 @@ jobs:
         if: always()
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public/extent-reports/
+          folder: public/reports/
           token: ${{ secrets.PAT1234 }}
           clean: true
