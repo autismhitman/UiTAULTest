@@ -1,47 +1,39 @@
+---
 name: Java CI with Maven
-
 on:
   schedule:
     -cron: 00 18 * * *
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   pull_request:
-    branches: [ "master" ]
-
+    branches:
+      - master
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 24
-      uses: actions/setup-java@v4
-      with:
-        java-version: '24'
-        distribution: 'temurin'
-        cache: maven
-        
-    - name: Run with Maven
-      run: mvn test -DbrowserName=chrome -DisHeadless=false -DisLambda=true 
-
-   - name: upload test logs
-     if: always()
-     uses: actions/upload-artifact@v4.6.2
-     with:    
-      name: Test logs 
-      path: logs/
-   
-   - name: upload Test reportss
-     if: always()
-     uses: actions/upload-artifact@v4.6.2
-     with:    
-      name: Test logs 
-      path: reports/index.html  
-
-  - name: Test Execution Status
-      if: always()
-      run: echo "Test Execution Completed"
-
-          
-    
+      - uses: actions/checkout@v4
+      - name: Set up JDK 24
+        uses: actions/setup-java@v4
+        with:
+          java-version: "24"
+          distribution: temurin
+          cache: maven
+      - name: Run with Maven
+        run: mvn test -DbrowserName=chrome -DisHeadless=false -DisLambda=true
+      - name: upload test logs
+        if: always()
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: Test logs
+          path: logs/
+      - name: upload Test reportss
+        if: always()
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: Test logs
+          path: reports/index.html
+      - name: Test Execution Status
+        if: always()
+        run: echo "Test Execution Completed"
