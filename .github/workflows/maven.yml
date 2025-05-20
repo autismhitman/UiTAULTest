@@ -27,14 +27,14 @@ jobs:
         uses: actions/upload-artifact@v4.6.2
         with:
           name: Test logs
-          path: logs/
+          path: logs/automation.log
       
       - name: upload Test reportss
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
           name: extent-reports
-          path: reports/
+          path: reports/index.html
       - name: Test Execution Status
         if: always()
         run: echo "Test Execution Completed"
