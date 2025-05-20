@@ -1,57 +1,87 @@
-name: Java CI with Maven
+name: Test Automation WorkFlow
+
 on:
   schedule:
-    - cron: 00 18 * * *
+  - cron: 00 18 * * *
   push:
-    branches:
-      - master
+    branches: [ "master" ]
   pull_request:
-    branches:
-      - master
+    branches: [ "master" ]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up JDK 24
-        uses: actions/setup-java@v4
-        with:
-          java-version: "24"
-          distribution: temurin
-          cache: maven
-      - name: Run with Maven
-        run: mvn test -DbrowserName=chrome -DisHeadless=false -DisLambda=true
+    
+    - uses: actions/checkout@v4
+    
+    - name: Set up JDK 24
+      uses: actions/setup-java@v4
+      with:
+        java-version: '24'
+        distribution: 'temurin'
+        cache: maven
+        
+    - name: Running Test Automation Framework with Maven
+      run: mvn test -X -DbrowserName=chrome -DisHeadless=false -DisLambda=true
+     
+    - name: Upload  Test logs
+      if: always()
+      uses: actions/upload-artifact@v4.4.3
+      with:
+       name: Test logs
+       path: logs/
+
+    
+    - name: Upload HTML Report as Artifact
+      if: always()
+      uses: actions/upload-artifact@v4.4.3
+      with:
+        name: html-report
+        path: index.html
+       
+    - name: Test Execution Status
+      if: always()
+      run: echo "Test Execution Completed"
+
+    - name: Copy Report to gh-pages Folder
+      if: always()
+
+      run: |
+        mkdir -p public/extent-reports
+        cp -R report.html  public/extent-reports/
+        
+        ls -l
+
+    - name: Deploy 🚀
+      if: always()
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: public/extent-reports/
+        token: ${{ secrets.PAT1234 }}
+        clean: true
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
-      - name: upload test logs
-        if: always()
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: logs
-          path: /logs/automation.log
-      
-      - name: upload Test reportss
-        if: always()
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: reports
-          path: /reports/index.html
-      - name: Test Execution Status
-        if: always()
-        run: echo "Test Execution Completed"
 
-      - name: Copy Report to gh-pages Folder
-        if: always()
-
-        run: |
-          mkdir -p public/reports
-          cp -R report.html  public/reports/
-           
-          ls -l
-
-      - name: Deploy 🚀
-        if: always()
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: public/reports/
-          token: ${{ secrets.PAT1234 }}
-          clean: true
+  
