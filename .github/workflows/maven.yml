@@ -26,13 +26,13 @@ jobs:
         uses: actions/upload-artifact@v4.6.2
         with:
           name: Test logs
-          path: logs
+          path: logs/
       - name: upload Test reportss
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: Test logs
-          path: index.html
+          name: html-report
+          path: report.html
       - name: Test Execution Status
         if: always()
         run: echo "Test Execution Completed"
