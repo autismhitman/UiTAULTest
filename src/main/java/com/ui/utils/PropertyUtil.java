@@ -13,7 +13,7 @@ public class PropertyUtil {
 	
 	public static String  readValue(Env env, String property) {
 		
-		File file = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\config\\"+env+".properties");
+		File file = new File(".//src//test//resources//config//"+env+".properties");
 		try (FileReader freader = new FileReader(file)) {
 			properties= new Properties();
 			properties.load(freader);

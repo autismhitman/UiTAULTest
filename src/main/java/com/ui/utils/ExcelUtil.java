@@ -19,7 +19,7 @@ public class ExcelUtil {
 	
 	public static Iterator<User> readExcelData(String fileName) {
 		
-		File file = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\testData\\"+fileName);
+		File file = new File(".//src//test//resources//testData//"+fileName);
 		XSSFWorkbook wb=null;
 		XSSFSheet sh;
 		Row row;

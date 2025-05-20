@@ -18,7 +18,7 @@ public class JsonUtil {
 		FileReader freader =null;
 		try {
 			freader = new FileReader(new File
-					(System.getProperty("user.dir")+"\\src\\test\\resources\\config\\config.json"));
+					(".//src//test//resources//config//config.json"));
 			
 			 
 			

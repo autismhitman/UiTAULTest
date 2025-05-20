@@ -15,7 +15,7 @@ public class ExtentReport {
 		if(Objects.isNull(extentReports)) {
 			
 			extentReports= new ExtentReports();
-			extentSparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\index.html");
+			extentSparkReporter = new ExtentSparkReporter(".//reports//index.html");
 			extentSparkReporter.config().setDocumentTitle("POM Framework");
 			extentSparkReporter.config().setTheme(Theme.STANDARD);
 			extentSparkReporter.config().setReportName("Regression Tests");
