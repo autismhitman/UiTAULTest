@@ -13,6 +13,8 @@ public class MyAccountPage extends BrowserUtility {
 	private static final By EMAIL_FIELD= By.id("email");
 	private static final By PASSWORD_FIELD= By.id("passwd");
 	private static final By SIGN_IN_BUTTON= By.id("SubmitLogin");
+	private static final By Error_Message = By.xpath("//div[contains(@class,'alert-danger')]/ol/li");
+	
 	Logger logger = LoggerUtil.getLogger(this.getClass());
 	
 	public MyDashboardPage login(String username, String password) {
@@ -24,6 +26,21 @@ public class MyAccountPage extends BrowserUtility {
 		click(SIGN_IN_BUTTON);
 		return new MyDashboardPage();
 		
+	}
+	
+	public MyAccountPage loginWithInvalidCredentials(String username, String password) {
+		logger.info("Entering the username "+ username);
+		enterText(username, EMAIL_FIELD);
+		logger.info("Entering the pasword "+ password);
+		enterText(password, PASSWORD_FIELD);
+		logger.info("clicking on the signin button");
+		click(SIGN_IN_BUTTON);
+		return this;
+		
+	}
+	
+	public String getErrorMessage() {
+		return getText(Error_Message);
 	}
 
 }

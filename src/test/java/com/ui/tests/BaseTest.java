@@ -16,16 +16,12 @@ public class BaseTest {
 	@BeforeMethod
 	public void setUp(@Optional("chrome") String browserName,
 			@Optional("false") boolean isHeadless, 
-			@Optional("true") boolean isLambda,Method m) {
+			@Optional("false") boolean isLambda,Method m) {
 		
 		Driver.initDriver(browserName, isHeadless, isLambda, m.getName());
 		
 		
 	}
-	
-	
-	
-	
 	
 	@AfterMethod
 	public void tearDown() {
