@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v4.4.3
       with:
        name: logs
-       path: logs/
+       path: ./logs/
 
     
     - name: Upload HTML Report as Artifact
@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v4.4.3
       with:
         name: extent-reports
-        path: index.html
+        path: ./reports/index.html
        
     - name: Test Execution Status
       if: always()
