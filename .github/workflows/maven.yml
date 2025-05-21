@@ -51,10 +51,10 @@ jobs:
       if: always()
 
       run: |
-        mkdir -p public/extent-reports
+        mkdir -p public/reports
         mkdir -p public/logs
-        cp -R index.html  public/extent-reports/
-        cp -R automation.log public/logs/
+        cp -R reports/ public/reports/
+        cp -R logs/ public/logs/
         
         ls -l
 
