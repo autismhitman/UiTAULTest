@@ -1,4 +1,4 @@
-name: Test Automation WorkFlow
+/name: Test Automation WorkFlow
 
 on:
   schedule:
@@ -41,7 +41,7 @@ jobs:
       uses: actions/upload-artifact@v4.4.3
       with:
         name: extent-reports
-        path: index.html
+        path: reports/index.html
        
     - name: Test Execution Status
       if: always()
