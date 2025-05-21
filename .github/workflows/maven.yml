@@ -1,4 +1,4 @@
-/name: Test Automation WorkFlow
+name: Test Automation WorkFlow
 
 on:
   schedule:
