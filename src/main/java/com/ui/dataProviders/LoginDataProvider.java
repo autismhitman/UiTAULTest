@@ -24,7 +24,7 @@ public class LoginDataProvider {
 		
 		Gson gson = new Gson();
 		FileReader freader=null;
-		File file = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\testData\\loginData.json");
+		File file = new File("./src/test/resources/testData/loginData.json");
 		try {
 			freader= new FileReader(file);
 		} catch (FileNotFoundException e) {

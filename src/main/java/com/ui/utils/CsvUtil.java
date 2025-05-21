@@ -17,7 +17,7 @@ public class CsvUtil {
    
 	public static Iterator<User> csvReadUtil(String fileName) {
 		
-		File file = new File(".//src//test//resources//testData//"+fileName);
+		File file = new File("./src/test/resources/testData/"+fileName);
 		FileReader freader=null;
 		CSVReader csv;
 		String[] line;		
