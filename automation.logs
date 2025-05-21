@@ -1,0 +1,32 @@
+2025-05-21 18:17:22 [main] INFO com.ui.listeners.MyTestListener::onStart::46 Test Suite Started 
+2025-05-21 18:17:32 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-21 18:17:32 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-21 18:17:32 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-21 18:17:32 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-21 18:17:32 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::goToWebsite::19 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-21 18:17:36 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::click::34 Clicking on the locator By.cssSelector: a.login 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::24 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::24 Finding the By.id: passwd entering the textpassword 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-21 18:17:38 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::click::34 Clicking on the locator By.id: SubmitLogin 
+2025-05-21 18:17:39 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getName::24 Capturing the test of account name 
+2025-05-21 18:17:40 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getText::39 Returning the captured text of account nameNavin Sharma 
+2025-05-21 18:17:40 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 validateLoginExcelSuccessful is passed 
+2025-05-21 18:17:51 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-21 18:17:51 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-21 18:17:51 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-21 18:17:51 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-21 18:17:51 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::goToWebsite::19 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-21 18:17:55 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::click::34 Clicking on the locator By.cssSelector: a.login 
+2025-05-21 18:17:56 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::21 Entering the username nav640@magpit.com 
+2025-05-21 18:17:56 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::24 Finding the By.id: email entering the textnav640@magpit.com 
+2025-05-21 18:17:57 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-21 18:17:57 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::24 Finding the By.id: passwd entering the textpassword 
+2025-05-21 18:17:57 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-21 18:17:57 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::click::34 Clicking on the locator By.id: SubmitLogin 
+2025-05-21 18:17:58 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getName::24 Capturing the test of account name 
+2025-05-21 18:18:13 [TestNG-test-Test-1] ERROR com.ui.listeners.MyTestListener::onTestFailure::33 validateLoginExcelSuccessful is Fail 
+2025-05-21 18:18:13 [TestNG-test-Test-1] ERROR com.ui.listeners.MyTestListener::onTestFailure::34 Expected condition failed: waiting for presence of element located by: By.cssSelector: .account span (tried for 15 second(s) with 500 milliseconds interval) 
+2025-05-21 18:18:14 [main] INFO com.ui.listeners.MyTestListener::onFinish::52 Test suite completed 
