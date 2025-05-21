@@ -53,8 +53,8 @@ jobs:
       run: |
         mkdir -p public/reports
         mkdir -p public/logs
-        cp -R reports/ public/reports/
-        cp -R logs/ public/logs/
+        cp -R reports/index.html public/reports/index.html
+        cp -R logs/automation.log public/logs/automation.logs
         
         ls -l
 
