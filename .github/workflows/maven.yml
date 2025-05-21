@@ -31,15 +31,15 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4.4.3
       with:
-       name: Test logs
-       path: logs/automation.log
+       name: logs
+       path: logs/
 
     
     - name: Upload HTML Report as Artifact
       if: always()
       uses: actions/upload-artifact@v4.4.3
       with:
-        name: html-report
+        name: extent-reports
         path: index.html
        
     - name: Test Execution Status
@@ -52,7 +52,7 @@ jobs:
       run: |
         mkdir -p public/extent-reports
         mkdir -p public/logs
-        cp -R report.html  public/extent-reports/
+        cp -R index.html  public/extent-reports/
         cp -R automation.log public/logs/
         
         ls -l
