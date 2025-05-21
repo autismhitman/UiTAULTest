@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
     
     - name: Set up JDK 24
       uses: actions/setup-java@v4
@@ -24,23 +24,24 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
+        
     - name: Running Test Automation Framework with Maven
-      run: mvn test -X -DbrowserName=chrome -DisHeadless=false -DisLambda=true
+      run: mvn test -DbrowserName=chrome -DisHeadless=false -DisLambda=true
      
     - name: Upload  Test logs
       if: always()
       uses: actions/upload-artifact@v4.4.3
       with:
-       name: logs
-       path: ./logs/
+        name: Test logs
+        path: logs/
 
     
     - name: Upload HTML Report as Artifact
-      if: always()
+      if: ()
       uses: actions/upload-artifact@v4.4.3
       with:
         name: extent-reports
-        path: ./reports/index.html
+        path: reports/index.html
        
     - name: Test Execution Status
       if: always()
