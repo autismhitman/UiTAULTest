@@ -1,0 +1,64 @@
+2025-05-22 10:54:18 [main] INFO com.ui.listeners.MyTestListener::onStart::46 Test Suite Started 
+2025-05-22 10:54:29 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-22 10:54:29 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-22 10:54:29 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-22 10:54:29 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-22 10:54:29 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-22 10:54:34 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-22 10:54:36 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-22 10:54:38 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getName::24 Capturing the test of account name 
+2025-05-22 10:54:38 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getText::49 Returning the captured text of account nameNavin Sharma 
+2025-05-22 10:54:38 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 validateLoginExcelSuccessful is passed 
+2025-05-22 10:54:50 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-22 10:54:50 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-22 10:54:54 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-22 10:54:56 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-22 10:54:57 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::20 verifyProductSearchTest 
+2025-05-22 10:54:57 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::21 Verify logged in user is able to search product and correct search result is displayed 
+2025-05-22 10:54:57 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-22 10:54:57 [TestNG-test-Test-4] INFO com.ui.pages.MyDashboardPage::enterText::25 Finding the By.id: search_query_top entering the textPrinted Summer Dress 
+2025-05-22 10:54:58 [TestNG-test-Test-4] INFO com.ui.pages.MyDashboardPage::enterTextByKey::34 Finding the By.id: search_query_top entering the text 
+2025-05-22 10:54:59 [TestNG-test-Test-4] INFO com.ui.pages.SearchResultPage::getText::49 Returning the captured text of account name"PRINTED SUMMER DRESS" 
+2025-05-22 10:54:59 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 verifyProductSearchTest is passed 
+2025-05-22 10:57:19 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-22 10:57:19 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-22 10:57:19 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-22 10:57:19 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::21 Negative login scenario 
+2025-05-22 10:57:19 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::20 checkoutTest 
+2025-05-22 10:57:19 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-22 10:57:19 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::21 User is able to buy a product 
+2025-05-22 10:57:19 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-22 10:57:19 [TestNG-test-Test-2] WARN com.ui.listeners.MyTestListener::onTestSkipped::39 validateLoginExcelSuccessful is Skipped 
+2025-05-22 10:57:19 [TestNG-test-Test-5] WARN com.ui.listeners.MyTestListener::onTestSkipped::39 checkoutTest is Skipped 
+2025-05-22 10:57:25 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-22 10:57:27 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-22 10:57:29 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::20 verifyProductSearchCountTest 
+2025-05-22 10:57:29 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::21 Verify logged in user is able to search product and correct search result is displayed 
+2025-05-22 10:57:29 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-22 10:57:29 [TestNG-test-Test-3] INFO com.ui.pages.MyDashboardPage::enterText::25 Finding the By.id: search_query_top entering the textPrinted Summer Dress 
+2025-05-22 10:57:29 [TestNG-test-Test-3] INFO com.ui.pages.MyDashboardPage::enterTextByKey::34 Finding the By.id: search_query_top entering the text 
+2025-05-22 10:57:31 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 verifyProductSearchCountTest is passed 
+2025-05-22 10:57:39 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-22 10:57:39 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-22 10:57:39 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-22 10:57:39 [TestNG-test-Test-1] WARN com.ui.listeners.MyTestListener::onTestSkipped::39 validateLoginExcelSuccessful is Skipped 
+2025-05-22 10:58:00 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::20 verifyNewAddressTest 
+2025-05-22 10:58:00 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::21 User is able to add a new address 
+2025-05-22 10:58:00 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-22 10:58:00 [TestNG-test-Test-4] WARN com.ui.listeners.MyTestListener::onTestSkipped::39 verifyNewAddressTest is Skipped 
+2025-05-22 10:58:00 [main] INFO com.ui.listeners.MyTestListener::onFinish::52 Test suite completed 
