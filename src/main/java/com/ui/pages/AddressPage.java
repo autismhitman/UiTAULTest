@@ -16,7 +16,7 @@ public class AddressPage extends BrowserUtility{
 	private static final By MOBILE_PHONE_FIELD= By.id("phone_mobile");
 	private static final By ADDRESS_ALIAS_FIELD = By.id("alias");
 	private static final By SAVE_BTN= By.id("submitAddress");
-	private static final By address_Heading = By.tagName("h3");
+	private static final By ADDRESS_HEADING = By.tagName("h3");
 	
 	public String enterAddressAndSave(Address address) {
 		
@@ -28,7 +28,7 @@ public class AddressPage extends BrowserUtility{
 		enterText(address.getMobile(),MOBILE_PHONE_FIELD);
 		clearAndEnterText(address.getAlias(),ADDRESS_ALIAS_FIELD);	
 		click(SAVE_BTN);
-		String header = getText(address_Heading);
+		String header = getText(ADDRESS_HEADING);
 		return header;
 	}
 

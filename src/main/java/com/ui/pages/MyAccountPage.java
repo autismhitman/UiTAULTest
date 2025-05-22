@@ -13,7 +13,7 @@ public class MyAccountPage extends BrowserUtility {
 	private static final By EMAIL_FIELD= By.id("email");
 	private static final By PASSWORD_FIELD= By.id("passwd");
 	private static final By SIGN_IN_BUTTON= By.id("SubmitLogin");
-	private static final By Error_Message = By.xpath("//div[contains(@class,'alert-danger')]/ol/li");
+	private static final By ERROR_MESSAGE = By.xpath("//div[contains(@class,'alert-danger')]/ol/li");
 	
 	Logger logger = LoggerUtil.getLogger(this.getClass());
 	
@@ -40,7 +40,7 @@ public class MyAccountPage extends BrowserUtility {
 	}
 	
 	public String getErrorMessage() {
-		return getText(Error_Message);
+		return getText(ERROR_MESSAGE);
 	}
 
 }

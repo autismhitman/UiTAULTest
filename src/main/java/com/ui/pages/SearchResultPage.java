@@ -11,14 +11,14 @@ import com.ui.utils.BrowserUtility;
 public class SearchResultPage extends BrowserUtility{
 	
 	
-	private static final By searched_productListing_Text = By.cssSelector("span.lighter");
-	private static final By search_result = By.cssSelector("span.heading-counter");
+	private static final By SEARCHED_PRODUCTLISTING_TEXT = By.cssSelector("span.lighter");
+	private static final By SEARCH_RESULT = By.cssSelector("span.heading-counter");
 	private static final By PRODUCT_NAME = By.cssSelector("h5[itemprop='name'] > a.product-name");
 
 	
 	public String getSearchProductListing() {
 		
-		return getText(searched_productListing_Text);
+		return getText(SEARCHED_PRODUCTLISTING_TEXT);
 	}
 	
 	public int getCountOfActualProduct() {

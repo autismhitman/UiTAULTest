@@ -6,11 +6,11 @@ import com.ui.utils.BrowserUtility;
 
 public class AddressCartPage extends BrowserUtility {
 	
-	private static final By checkout_BTN= By.xpath("//button[@name='processAddress']");
+	private static final By CHECKOUT_BTN= By.xpath("//button[@name='processAddress']");
 	
 	public ShippingCartPage clickCheckoutAddressCartPage() {
 		
-		click(checkout_BTN);
+		click(CHECKOUT_BTN);
 		return new ShippingCartPage();
 	}
 

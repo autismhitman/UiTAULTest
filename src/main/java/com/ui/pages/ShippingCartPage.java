@@ -6,14 +6,14 @@ import com.ui.utils.BrowserUtility;
 
 public class ShippingCartPage extends BrowserUtility{
 	
-	private static final By tos_field= By.id("uniform-cgv");
+	private static final By TOS_FIELD= By.id("uniform-cgv");
 	
-	private static final By checkout_BTN = By.xpath("//button[@name='processCarrier']");
+	private static final By CHECKOUT_BTN = By.xpath("//button[@name='processCarrier']");
 	
 	public PaymentCartPage clickonProcessShippingCartPage() {
 		
-		click(tos_field);
-		click(checkout_BTN);
+		click(TOS_FIELD);
+		click(CHECKOUT_BTN);
 		return new PaymentCartPage();
 	}
 

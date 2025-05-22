@@ -8,12 +8,12 @@ public class PaymentCartPage extends BrowserUtility{
 
 	
 	private static final By MODE_OF_PAYMENT =By.cssSelector("p.payment_module a.bankwire");
-	private static final By confirmOrder= By.cssSelector("button.button.btn.btn-default.button-medium");
+	private static final By CONFIRMORDER= By.cssSelector("button.button.btn.btn-default.button-medium");
 	
 	public OrderConfirmationPage clickonModePaymentPaymentCartPage() {
 		
 		click(MODE_OF_PAYMENT);
-		click(confirmOrder);
+		click(CONFIRMORDER);
 		return new OrderConfirmationPage();
 	}
 }

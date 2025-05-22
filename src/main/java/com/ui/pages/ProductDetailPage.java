@@ -10,8 +10,8 @@ public class ProductDetailPage extends BrowserUtility {
 	
 	
 	private static final By SIZE_FIELD= By.id("group_1");
-	private static final By cart_Btn= By.xpath("//button[@name='Submit']");
-	private static final By secondCheckoutBTN= By.cssSelector("a.btn.btn-default.button.button-medium");
+	private static final By CART_BTN= By.xpath("//button[@name='Submit']");
+	private static final By SECONDCHECKOUTBTN= By.cssSelector("a.btn.btn-default.button.button-medium");
 	
 	public ProductDetailPage changeSize(SIZE size) {
 		
@@ -21,8 +21,8 @@ public class ProductDetailPage extends BrowserUtility {
 	
 	public ShoppingCartPage clickOnCartBtnProductDetailPage() {
 		
-		click(cart_Btn);
-		click(secondCheckoutBTN);
+		click(CART_BTN);
+		click(SECONDCHECKOUTBTN);
 		return new ShoppingCartPage();
 	}
 

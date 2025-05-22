@@ -6,11 +6,11 @@ import com.ui.utils.BrowserUtility;
 
 public class OrderConfirmationPage extends BrowserUtility {
 	
-	private static final By successMessage = By.cssSelector("p.alert.alert-success");
+	private static final By SUCCESSMESSAGE = By.cssSelector("p.alert.alert-success");
 	
 	public String getSuccessMessage() {
 		
-		return getText(successMessage);
+		return getText(SUCCESSMESSAGE);
 	}
 	
 

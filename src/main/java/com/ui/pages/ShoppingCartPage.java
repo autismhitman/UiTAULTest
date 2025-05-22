@@ -6,12 +6,12 @@ import com.ui.utils.BrowserUtility;
 
 public class ShoppingCartPage extends BrowserUtility{
 	
-	private static final By checkOutBTN= By.cssSelector("a.button.button.btn.btn-default.standard-checkout.button-medium");
+	private static final By CHECKOUTBTN= By.cssSelector("a.button.button.btn.btn-default.standard-checkout.button-medium");
 	
 	
 	public AddressCartPage clickOnCheckoutShoppingCartPage() {
 		
-		click(checkOutBTN);
+		click(CHECKOUTBTN);
 		return new AddressCartPage();
 	}
 
