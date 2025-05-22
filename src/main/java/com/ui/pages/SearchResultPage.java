@@ -2,9 +2,9 @@ package com.ui.pages;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Predicate;
 
 import org.openqa.selenium.By;
+
 
 import com.ui.utils.BrowserUtility;
 
@@ -14,7 +14,7 @@ public class SearchResultPage extends BrowserUtility{
 	private static final By searched_productListing_Text = By.cssSelector("span.lighter");
 	private static final By search_result = By.cssSelector("span.heading-counter");
 	private static final By PRODUCT_NAME = By.cssSelector("h5[itemprop='name'] > a.product-name");
-			
+
 	
 	public String getSearchProductListing() {
 		
@@ -36,6 +36,16 @@ public class SearchResultPage extends BrowserUtility{
 	   
 	   
 	}
+   
+   
+   public ProductDetailPage selectProductAt(int index) {
+	   
+	       click(getProductList(PRODUCT_NAME).get(index));
+	       return new ProductDetailPage();
+	   
+   }
+   
+  
 	
 
 }

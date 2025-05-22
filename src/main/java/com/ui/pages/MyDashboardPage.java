@@ -16,7 +16,7 @@ public class MyDashboardPage extends BrowserUtility {
 	
 	private static final By SEARCH_TEXT_FIELD = By.id("search_query_top");
 	private static final By SEARCH_BTN= By.xpath("//button[@name='submit_search' and @type='submit']");
-	
+	private static final By Add_Address = By.xpath("//a[@title='Add my first address']")	;	
  
 	
 	
@@ -30,5 +30,11 @@ public class MyDashboardPage extends BrowserUtility {
 		enterTextByKey( SEARCH_TEXT_FIELD, Keys.ENTER);
 		return new SearchResultPage();
 	}
+	
+	 public AddressPage addNewAddress() {
+		   
+		   click(Add_Address);
+		   return new AddressPage();
+	   }
 
 }
