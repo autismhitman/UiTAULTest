@@ -1,0 +1,105 @@
+2025-05-23 18:15:20 [main] INFO com.ui.listeners.MyTestListener::onStart::46 Test Suite Started 
+2025-05-23 18:15:28 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:15:28 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:15:28 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-23 18:15:28 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-23 18:15:28 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-23 18:15:28 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:15:28 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:15:31 [TestNG-test-Test-3] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:15:32 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:15:33 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-23 18:15:33 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-23 18:15:33 [TestNG-test-Test-3] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:15:33 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-23 18:15:33 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:15:34 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-23 18:15:34 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:15:35 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::20 verifyProductSearchCountTest 
+2025-05-23 18:15:35 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::21 Verify logged in user is able to search product and correct search result is displayed 
+2025-05-23 18:15:35 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-23 18:15:35 [TestNG-test-Test-3] INFO com.ui.pages.MyDashboardPage::enterText::25 Finding the By.id: search_query_top entering the textPrinted Summer Dress 
+2025-05-23 18:15:35 [TestNG-test-Test-3] INFO com.ui.pages.MyDashboardPage::enterTextByKey::34 Finding the By.id: search_query_top entering the text 
+2025-05-23 18:15:35 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getName::24 Capturing the test of account name 
+2025-05-23 18:15:36 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getText::49 Returning the captured text of account nameNavin Sharma 
+2025-05-23 18:15:36 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 validateLoginExcelSuccessful is passed 
+2025-05-23 18:15:37 [TestNG-test-Test-3] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 verifyProductSearchCountTest is passed 
+2025-05-23 18:15:48 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:15:48 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:15:49 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-23 18:15:49 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::21 Negative login scenario 
+2025-05-23 18:15:49 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-23 18:15:49 [TestNG-test-Test-2] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:15:49 [TestNG-test-Test-2] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:15:51 [TestNG-test-Test-4] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:15:52 [TestNG-test-Test-2] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:15:52 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-23 18:15:52 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-23 18:15:53 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-23 18:15:53 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:15:53 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-23 18:15:53 [TestNG-test-Test-4] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::loginWithInvalidCredentials::32 Entering the username j@gmail.com 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textj@gmail.com 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::loginWithInvalidCredentials::34 Entering the pasword password 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::loginWithInvalidCredentials::36 clicking on the signin button 
+2025-05-23 18:15:54 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:15:55 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::20 verifyProductSearchTest 
+2025-05-23 18:15:55 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::21 Verify logged in user is able to search product and correct search result is displayed 
+2025-05-23 18:15:55 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-23 18:15:55 [TestNG-test-Test-4] INFO com.ui.pages.MyDashboardPage::enterText::25 Finding the By.id: search_query_top entering the textPrinted Summer Dress 
+2025-05-23 18:15:55 [TestNG-test-Test-4] INFO com.ui.pages.MyDashboardPage::enterTextByKey::34 Finding the By.id: search_query_top entering the text 
+2025-05-23 18:15:56 [TestNG-test-Test-2] INFO com.ui.pages.MyAccountPage::getText::49 Returning the captured text of account nameAuthentication failed. 
+2025-05-23 18:15:56 [TestNG-test-Test-2] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 validateLoginExcelSuccessful is passed 
+2025-05-23 18:15:56 [TestNG-test-Test-4] INFO com.ui.pages.SearchResultPage::getText::49 Returning the captured text of account name"PRINTED SUMMER DRESS" 
+2025-05-23 18:15:56 [TestNG-test-Test-4] INFO com.ui.listeners.MyTestListener::onTestSuccess::28 verifyProductSearchTest is passed 
+2025-05-23 18:16:08 [TestNG-test-Test-5] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:16:08 [TestNG-test-Test-5] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:16:09 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::20 validateLoginExcelSuccessful 
+2025-05-23 18:16:09 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::21 Positive login scenario 
+2025-05-23 18:16:09 [TestNG-test-Test-1] INFO com.ui.listeners.MyTestListener::onTestStart::22 [e2e, sanity] 
+2025-05-23 18:16:09 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::clickOnSigninLink::20 Navigating to the website 
+2025-05-23 18:16:09 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::goToWebsite::20 Visiting the website http://www.automationpractice.pl/index.php 
+2025-05-23 18:16:11 [TestNG-test-Test-5] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:16:12 [TestNG-test-Test-1] INFO com.ui.pages.HomePage::click::39 Clicking on the locator By.cssSelector: a.login 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::login::21 Entering the username rejiva4640@magpit.com 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textrejiva4640@magpit.com 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-23 18:16:13 [TestNG-test-Test-5] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:16:13 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::21 Entering the username nav640@magpit.com 
+2025-05-23 18:16:13 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: email entering the textnav640@magpit.com 
+2025-05-23 18:16:14 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::23 Entering the pasword password 
+2025-05-23 18:16:14 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::enterText::25 Finding the By.id: passwd entering the textpassword 
+2025-05-23 18:16:14 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::login::25 clicking on the signin button 
+2025-05-23 18:16:14 [TestNG-test-Test-1] INFO com.ui.pages.MyAccountPage::click::39 Clicking on the locator By.id: SubmitLogin 
+2025-05-23 18:16:14 [TestNG-test-Test-5] INFO com.ui.pages.MyDashboardPage::enterText::25 Finding the By.id: search_query_top entering the textPrinted Summer Dress 
+2025-05-23 18:16:15 [TestNG-test-Test-5] INFO com.ui.pages.MyDashboardPage::enterTextByKey::34 Finding the By.id: search_query_top entering the text 
+2025-05-23 18:16:15 [TestNG-test-Test-1] INFO com.ui.pages.MyDashboardPage::getName::24 Capturing the test of account name 
+2025-05-23 18:16:16 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::20 checkoutTest 
+2025-05-23 18:16:16 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::21 User is able to buy a product 
+2025-05-23 18:16:16 [TestNG-test-Test-5] INFO com.ui.listeners.MyTestListener::onTestStart::22 [smoke, e2e] 
+2025-05-23 18:16:16 [TestNG-test-Test-5] INFO com.ui.pages.SearchResultPage::click::44 Clicking on the element [[RemoteWebDriver: chrome on Windows XP (1910151cd70f00bad3c1b223498ac61d)] -> css selector: h5[itemprop='name'] > a.product-name] 
+2025-05-23 18:16:17 [TestNG-test-Test-5] INFO com.ui.pages.ProductDetailPage::selectFromDropDown::70 Clicking on the locator By.id: group_1 
+2025-05-23 18:16:17 [TestNG-test-Test-5] INFO com.ui.pages.ProductDetailPage::selectFromDropDown::72 Selecting dropdown L 
+2025-05-23 18:16:18 [TestNG-test-Test-5] INFO com.ui.pages.ProductDetailPage::click::39 Clicking on the locator By.xpath: //button[@name='Submit'] 
+2025-05-23 18:16:18 [TestNG-test-Test-5] INFO com.ui.pages.ProductDetailPage::click::39 Clicking on the locator By.cssSelector: a.btn.btn-default.button.button-medium 
+2025-05-23 18:16:20 [TestNG-test-Test-5] INFO com.ui.pages.ShoppingCartPage::click::39 Clicking on the locator By.cssSelector: a.button.button.btn.btn-default.standard-checkout.button-medium 
+2025-05-23 18:16:21 [TestNG-test-Test-5] INFO com.ui.pages.AddressCartPage::click::39 Clicking on the locator By.xpath: //button[@name='processAddress'] 
+2025-05-23 18:16:30 [TestNG-test-Test-1] ERROR com.ui.listeners.MyTestListener::onTestFailure::33 validateLoginExcelSuccessful is Fail 
+2025-05-23 18:16:30 [TestNG-test-Test-1] ERROR com.ui.listeners.MyTestListener::onTestFailure::34 Expected condition failed: waiting for presence of element located by: By.cssSelector: .account span (tried for 15 second(s) with 500 milliseconds interval) 
+2025-05-23 18:16:37 [TestNG-test-Test-5] ERROR com.ui.listeners.MyTestListener::onTestFailure::33 checkoutTest is Fail 
+2025-05-23 18:16:37 [TestNG-test-Test-5] ERROR com.ui.listeners.MyTestListener::onTestFailure::34 Expected condition failed: waiting for element to be clickable: By.xpath: //button[@name='processAddress'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1014-azure', java.version: '24.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-us.lambdatest.com..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1910151cd70f00bad3c1b223498ac61d 
+2025-05-23 18:16:38 [main] INFO com.ui.listeners.MyTestListener::onFinish::52 Test suite completed 
